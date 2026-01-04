@@ -1,0 +1,39 @@
+FlexiMart Data Quality Report
+-----------------------------
+
+[Date Generated]: 2026-01-04
+
+1. Customers Data (customers_raw.csv)
+--------------------------------------
+Total Records in Raw File: 10
+Duplicate Records Removed: 1
+Missing Emails Handled: 1
+Phone Numbers Standardized: 10
+Dates Standardized: 10
+Records Successfully Loaded: 9
+
+2. Products Data (products_raw.csv)
+------------------------------------
+Total Records in Raw File: 10
+Duplicate Records Removed: 1
+Missing Prices Handled: 1
+Null Stock Values Handled: 2
+Category Names Standardized: 10
+Records Successfully Loaded: 8
+
+3. Sales Data (sales_raw.csv)
+-------------------------------
+Total Records in Raw File: 10
+Duplicate Transactions Removed: 1
+Missing Customer/Product IDs Handled: 1
+Date Formats Standardized: 10
+Records Successfully Loaded: 8
+
+Summary
+--------
+Total Records Processed: 30
+Total Duplicates Removed: 3
+Total Missing Values Handled: 5
+Total Records Loaded Successfully: 25
+
+ETL Status: SUCCESS
