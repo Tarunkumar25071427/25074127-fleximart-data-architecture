@@ -30,3 +30,16 @@ This part focuses on building a **data warehouse** for FlexiMart to support hist
 
 ```bash
 mysql -u root -p -e "CREATE DATABASE fleximart_dw;"
+
+
+2. Run schema creation:
+mysql -u root -p fleximart_dw < warehouse_schema.sql
+
+3. Load sample data:
+
+mysql -u root -p fleximart_dw < warehouse_data.sql
+
+
+4.Execute analytics queries:
+
+mysql -u root -p fleximart_dw < analytics_queries.sql
